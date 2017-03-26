@@ -27,9 +27,8 @@ export class FooterComponent implements OnInit {
     this.store.dispatch({ type: "CLEAR_COMPLETED" });
   }
 
-  changeStatus(status){
-    console.log(status);
-    this.store.dispatch({ type: "CHANGE_STATUS" ,payload: { 'status': status } });
+  changeStatus(status) {
+    this.store.dispatch({ type: "CHANGE_STATUS", payload: { 'status': status } });
   }
 
 }

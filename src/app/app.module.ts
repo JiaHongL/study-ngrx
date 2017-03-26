@@ -4,15 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
-import { StoreModule } from '@ngrx/store';
-
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 
 import { FiltertodosPipe } from './filtertodos.pipe';
-
 import { MyAutofocus } from './my-autofocus.directive.ts.directive';
+
+import { StoreModule } from '@ngrx/store';
 import { ToDosReducer } from "app/ngrx/todos.reducer";
 import { StatusReducer } from "app/ngrx/status.reducer";
 

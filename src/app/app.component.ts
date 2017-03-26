@@ -3,9 +3,6 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from "app/ngrx/appstore.interface.ts";
 
-
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
