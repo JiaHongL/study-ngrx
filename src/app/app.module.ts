@@ -37,7 +37,7 @@ import { StatusReducer } from "app/ngrx/status.reducer";
       status: StatusReducer
     }),
     StoreDevtoolsModule.instrumentOnlyWithExtension({
-      maxAge: 5
+      maxAge: 20
     })
   ],
   providers: [],

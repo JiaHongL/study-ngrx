@@ -617,7 +617,7 @@ var AppModuleInjector = (function (_super) {
             status: __WEBPACK_IMPORTED_MODULE_13__app_ngrx_status_reducer__["a" /* StatusReducer */]
         };
         this.__INITIAL_STATE_46 = undefined;
-        this._INITIAL_OPTIONS_48 = { maxAge: 5 };
+        this._INITIAL_OPTIONS_48 = { maxAge: 20 };
         return this._AppModule_13;
     };
     AppModuleInjector.prototype.getInternal = function (token, notFoundResult) {
