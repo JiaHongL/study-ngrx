@@ -11,6 +11,7 @@ import { MainComponent } from './main/main.component';
 import { FiltertodosPipe } from './filtertodos.pipe';
 import { MyAutofocus } from './my-autofocus.directive.ts.directive';
 
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { ToDosReducer } from "app/ngrx/todos.reducer";
 import { StatusReducer } from "app/ngrx/status.reducer";
@@ -26,16 +27,18 @@ import { StatusReducer } from "app/ngrx/status.reducer";
     FooterComponent,
     MainComponent,
     FiltertodosPipe
-],
+  ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    StoreModule.provideStore({ 
+    StoreModule.provideStore({
       todos: ToDosReducer,
-      status:StatusReducer 
+      status: StatusReducer
     }),
-    
+    StoreDevtoolsModule.instrumentOnlyWithExtension({
+      maxAge: 5
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
