@@ -1,3 +1,4 @@
+import { ADD_TODO } from './../ngrx/todos.reducer';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
@@ -23,7 +24,7 @@ export class HeaderComponent implements OnInit {
 
     onEnter(value: string) {
     if (value !== '') {
-      this.store.dispatch({ type: "ADD_TODO", payload: { 'completed': false, 'text': value } });
+      this.store.dispatch({ type: ADD_TODO, payload: { 'completed': false, 'text': value } });
     }
   }
 

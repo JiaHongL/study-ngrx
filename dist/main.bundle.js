@@ -1,6 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 108:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,21 +21,21 @@ webpackJsonp([1,4],{
 
 /***/ }),
 
-/***/ 109:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component_css_shim_ngstyle__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component_css_shim_ngstyle__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__main_main_component_ngfactory__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_main_main_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__main_main_component_ngfactory__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_main_main_component__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngrx_store_src_store__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__footer_footer_component_ngfactory__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_footer_footer_component__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_component_ngfactory__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_header_header_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__footer_footer_component_ngfactory__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_footer_footer_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_component_ngfactory__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_header_header_component__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_common__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_app_component__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_app_component__ = __webpack_require__(119);
 /* unused harmony export RenderType_AppComponent */
 /* unused harmony export View_AppComponent_0 */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponentNgFactory; });
@@ -168,27 +168,27 @@ var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25" /*
 
 /***/ }),
 
-/***/ 110:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngrx_store_src_ng2__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngrx_store_devtools_src_instrument__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ngrx_store_devtools_src_extension__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ngrx_store_devtools_src_devtools__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ngrx_store_src_dispatcher__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component_ngfactory__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_ngrx_todos_reducer__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_ngrx_status_reducer__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngrx_store_src_reducer__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngrx_store_devtools_src_config__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ngrx_store_src_state__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngrx_store_src_ng2__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngrx_store_devtools_src_instrument__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ngrx_store_devtools_src_extension__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ngrx_store_devtools_src_devtools__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ngrx_store_src_dispatcher__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component_ngfactory__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_ngrx_todos_reducer__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_ngrx_status_reducer__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngrx_store_src_reducer__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngrx_store_devtools_src_config__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ngrx_store_src_state__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ngrx_store_src_store__ = __webpack_require__(13);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModuleNgFactory; });
 /**
@@ -794,7 +794,7 @@ var AppModuleNgFactory = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* 
 
 /***/ }),
 
-/***/ 111:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -815,15 +815,15 @@ var AppModuleNgFactory = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* 
 
 /***/ }),
 
-/***/ 112:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__footer_component_css_shim_ngstyle__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__footer_component_css_shim_ngstyle__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_filtertodos_pipe__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_filtertodos_pipe__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_footer_footer_component__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_footer_footer_component__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngrx_store_src_store__ = __webpack_require__(13);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return RenderType_FooterComponent; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = View_FooterComponent_0;
@@ -1019,7 +1019,7 @@ var FooterComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25"
 
 /***/ }),
 
-/***/ 113:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1040,13 +1040,13 @@ var FooterComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25"
 
 /***/ }),
 
-/***/ 114:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component_css_shim_ngstyle__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component_css_shim_ngstyle__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngrx_store_src_store__ = __webpack_require__(13);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return RenderType_HeaderComponent; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = View_HeaderComponent_0;
@@ -1127,7 +1127,7 @@ var HeaderComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25"
 
 /***/ }),
 
-/***/ 115:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1148,17 +1148,17 @@ var HeaderComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25"
 
 /***/ }),
 
-/***/ 116:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main_component_css_shim_ngstyle__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main_component_css_shim_ngstyle__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_my_autofocus_directive_ts_directive__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_my_autofocus_directive_ts_directive__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_filtertodos_pipe__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_main_main_component__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_filtertodos_pipe__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_main_main_component__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngrx_store_src_store__ = __webpack_require__(13);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return RenderType_MainComponent; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = View_MainComponent_0;
@@ -1558,7 +1558,7 @@ var MainComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_25" /
 
 /***/ }),
 
-/***/ 117:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1578,7 +1578,7 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1593,7 +1593,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1616,49 +1616,43 @@ var MyAutofocus = (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export CHANGE_STATUS */
-/* harmony export (immutable) */ __webpack_exports__["a"] = StatusReducer;
-var CHANGE_STATUS = 'CHANGE_STATUS';
-function StatusReducer(state, action) {
-    if (state === void 0) { state = 'All'; }
-    switch (action.type) {
-        case 'CHANGE_STATUS':
-            if (action.payload.status == 'Active') {
-                state = action.payload.status;
-                return state;
-            }
-            else if (action.payload.status == 'Completed') {
-                state = action.payload.status;
-                return state;
-            }
-            else {
-                state = 'All';
-                return state;
-            }
-        default:
-            return state;
-    }
-}
-//# sourceMappingURL=status.reducer.js.map
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=environment.js.map
 
 /***/ }),
 
-/***/ 121:
+/***/ 211:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(99);
+
+
+/***/ }),
+
+/***/ 29:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export ADD_TODO */
-/* unused harmony export DELETE_TODO */
-/* unused harmony export EDIT_TODO */
-/* unused harmony export COMPLETE_TODO */
-/* unused harmony export COMPLETE_ALL */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ADD_TODO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return DELETE_TODO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return EDIT_TODO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return COMPLETE_TODO; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return COMPLETE_ALL; });
 /* unused harmony export ALL_ACTIVE */
 /* unused harmony export ALL_COMPLETED */
-/* unused harmony export CLEAR_COMPLETED */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return CLEAR_COMPLETED; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = ToDosReducer;
 var __assign = (this && this.__assign) || Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -1676,9 +1670,6 @@ var COMPLETE_ALL = 'COMPLETE_ALL';
 var ALL_ACTIVE = 'ALL_ACTIVE';
 var ALL_COMPLETED = 'ALL_COMPLETED';
 var CLEAR_COMPLETED = 'CLEAR_COMPLETED';
-// 1.aot compile 過不了. PS:Aot規範
-// export const ToDosReducer = (state: Array<ItemState> = [], action: Action) => {
-// 2.aot 可以過.
 function ToDosReducer(state, action) {
     if (state === void 0) { state = []; }
     switch (action.type) {
@@ -1717,32 +1708,7 @@ function ToDosReducer(state, action) {
 
 /***/ }),
 
-/***/ 122:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
-var environment = {
-    production: false
-};
-//# sourceMappingURL=environment.js.map
-
-/***/ }),
-
-/***/ 211:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(97);
-
-
-/***/ }),
-
-/***/ 69:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1770,12 +1736,16 @@ var FiltertodosPipe = (function () {
 
 /***/ }),
 
-/***/ 70:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_status_reducer__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_todos_reducer__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngrx_store__ = __webpack_require__(12);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FooterComponent; });
+
+
 
 var FooterComponent = (function () {
     function FooterComponent(store) {
@@ -1786,12 +1756,12 @@ var FooterComponent = (function () {
     FooterComponent.prototype.ngOnInit = function () {
     };
     FooterComponent.prototype.clearCompleted = function () {
-        this.store.dispatch({ type: "CLEAR_COMPLETED" });
+        this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_1__ngrx_todos_reducer__["c" /* CLEAR_COMPLETED */] });
     };
     FooterComponent.prototype.changeStatus = function (status) {
-        this.store.dispatch({ type: "CHANGE_STATUS", payload: { 'status': status } });
+        this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_status_reducer__["b" /* CHANGE_STATUS */], payload: { 'status': status } });
     };
-    FooterComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_store__["g" /* Store */] }]; };
+    FooterComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_2__ngrx_store__["g" /* Store */] }]; };
     return FooterComponent;
 }());
 
@@ -1799,12 +1769,14 @@ var FooterComponent = (function () {
 
 /***/ }),
 
-/***/ 71:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(12);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
+
 
 var HeaderComponent = (function () {
     function HeaderComponent(store) {
@@ -1815,10 +1787,10 @@ var HeaderComponent = (function () {
     };
     HeaderComponent.prototype.onEnter = function (value) {
         if (value !== '') {
-            this.store.dispatch({ type: "ADD_TODO", payload: { 'completed': false, 'text': value } });
+            this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["b" /* ADD_TODO */], payload: { 'completed': false, 'text': value } });
         }
     };
-    HeaderComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_store__["g" /* Store */] }]; };
+    HeaderComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_1__ngrx_store__["g" /* Store */] }]; };
     return HeaderComponent;
 }());
 
@@ -1826,12 +1798,14 @@ var HeaderComponent = (function () {
 
 /***/ }),
 
-/***/ 72:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(12);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainComponent; });
+
 
 var MainComponent = (function () {
     function MainComponent(store) {
@@ -1844,13 +1818,13 @@ var MainComponent = (function () {
     MainComponent.prototype.ngOnInit = function () {
     };
     MainComponent.prototype.completeAll = function () {
-        this.store.dispatch({ type: "COMPLETE_ALL" });
+        this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["d" /* COMPLETE_ALL */] });
     };
     MainComponent.prototype.toggleCompletion = function (value) {
-        this.store.dispatch({ type: "COMPLETE_TODO", payload: { 'id': value.id } });
+        this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["e" /* COMPLETE_TODO */], payload: { 'id': value.id } });
     };
     MainComponent.prototype.deleteTodo = function (value) {
-        this.store.dispatch({ type: "DELETE_TODO", payload: { 'id': value.id } });
+        this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["f" /* DELETE_TODO */], payload: { 'id': value.id } });
     };
     MainComponent.prototype.editTodo = function (value) {
         // this.editedTodo = value ; PS:不能這樣丟會有問題,沒透過dispatch,就自動更新store
@@ -1862,11 +1836,11 @@ var MainComponent = (function () {
     };
     MainComponent.prototype.updateTodo = function (value) {
         if (value !== null) {
-            this.store.dispatch({ type: "EDIT_TODO", payload: { 'id': value.id, 'text': value.text } });
+            this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["g" /* EDIT_TODO */], payload: { 'id': value.id, 'text': value.text } });
             this.editedTodo = null;
         }
     };
-    MainComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_store__["g" /* Store */] }]; };
+    MainComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_1__ngrx_store__["g" /* Store */] }]; };
     return MainComponent;
 }());
 
@@ -1874,7 +1848,38 @@ var MainComponent = (function () {
 
 /***/ }),
 
-/***/ 96:
+/***/ 74:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CHANGE_STATUS; });
+/* harmony export (immutable) */ __webpack_exports__["a"] = StatusReducer;
+var CHANGE_STATUS = 'CHANGE_STATUS';
+function StatusReducer(state, action) {
+    if (state === void 0) { state = 'All'; }
+    switch (action.type) {
+        case 'CHANGE_STATUS':
+            if (action.payload.status == 'Active') {
+                state = action.payload.status;
+                return state;
+            }
+            else if (action.payload.status == 'Completed') {
+                state = action.payload.status;
+                return state;
+            }
+            else {
+                state = 'All';
+                return state;
+            }
+        default:
+            return state;
+    }
+}
+//# sourceMappingURL=status.reducer.js.map
+
+/***/ }),
+
+/***/ 98:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -1883,12 +1888,12 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 96;
+webpackEmptyContext.id = 98;
 
 
 /***/ }),
 
-/***/ 97:
+/***/ 99:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1896,7 +1901,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gendir_app_app_module_ngfactory__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gendir_app_app_module_ngfactory__ = __webpack_require__(112);
 
 
 

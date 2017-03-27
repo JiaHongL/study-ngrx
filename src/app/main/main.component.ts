@@ -1,3 +1,4 @@
+import { COMPLETE_ALL, COMPLETE_TODO, DELETE_TODO, EDIT_TODO } from './../ngrx/todos.reducer';
 import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rx';
@@ -24,15 +25,15 @@ export class MainComponent implements OnInit {
   }
 
   completeAll() {
-    this.store.dispatch({ type: "COMPLETE_ALL" });
+    this.store.dispatch({ type: COMPLETE_ALL });
   }
 
   toggleCompletion(value: any) {
-    this.store.dispatch({ type: "COMPLETE_TODO", payload: { 'id': value.id } });
+    this.store.dispatch({ type: COMPLETE_TODO, payload: { 'id': value.id } });
   }
 
   deleteTodo(value: any) {
-    this.store.dispatch({ type: "DELETE_TODO", payload: { 'id': value.id } });
+    this.store.dispatch({ type: DELETE_TODO, payload: { 'id': value.id } });
   }
 
   editTodo(value: any) {
@@ -46,7 +47,7 @@ export class MainComponent implements OnInit {
 
   updateTodo(value: any) {
     if (value !== null) {
-      this.store.dispatch({ type: "EDIT_TODO", payload: { 'id': value.id, 'text': value.text } });
+      this.store.dispatch({ type: EDIT_TODO, payload: { 'id': value.id, 'text': value.text } });
       this.editedTodo = null;
     }
   }

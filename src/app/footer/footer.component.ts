@@ -1,3 +1,5 @@
+import { CHANGE_STATUS } from './../ngrx/status.reducer';
+import { CLEAR_COMPLETED } from './../ngrx/todos.reducer';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
@@ -24,11 +26,11 @@ export class FooterComponent implements OnInit {
   }
 
   clearCompleted() {
-    this.store.dispatch({ type: "CLEAR_COMPLETED" });
+    this.store.dispatch({ type: CLEAR_COMPLETED });
   }
 
   changeStatus(status) {
-    this.store.dispatch({ type: "CHANGE_STATUS", payload: { 'status': status } });
+    this.store.dispatch({ type: CHANGE_STATUS, payload: { 'status': status } });
   }
 
 }
