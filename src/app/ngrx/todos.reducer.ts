@@ -12,6 +12,9 @@ export const ALL_ACTIVE = 'ALL_ACTIVE';
 export const ALL_COMPLETED = 'ALL_COMPLETED';
 export const CLEAR_COMPLETED = 'CLEAR_COMPLETED';
 
+// 1.aot compile 過不了.
+// export const ToDosReducer = (state: Array<ItemState> = [], action: Action) => {
+// 2.aot 可以過.
 export function ToDosReducer (state: Array<ItemState> = [], action: Action) {
     switch (action.type) {
         case 'ADD_TODO':

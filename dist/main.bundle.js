@@ -635,6 +635,9 @@ var COMPLETE_ALL = 'COMPLETE_ALL';
 var ALL_ACTIVE = 'ALL_ACTIVE';
 var ALL_COMPLETED = 'ALL_COMPLETED';
 var CLEAR_COMPLETED = 'CLEAR_COMPLETED';
+// 1.aot compile 過不了.
+// export const ToDosReducer = (state: Array<ItemState> = [], action: Action) => {
+// 2.aot 可以過.
 function ToDosReducer(state, action) {
     if (state === void 0) { state = []; }
     switch (action.type) {
