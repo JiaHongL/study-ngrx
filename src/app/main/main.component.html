@@ -11,7 +11,7 @@
         <button class="destroy" (click)="deleteTodo(todo)"></button>
       </div>
       <input class="edit" *ngIf="editedTodo?.id==todo.id" [(ngModel)]="editedTodo.text" (keyup.esc)="editedTodo=null" (keyup.enter)="updateTodo(editedTodo)"
-        (blur)="editedTodo=null" MyAutofocus>
+        (blur)="updateTodo(editedTodo)" MyAutofocus>
     </li>
   </ul>
 </section>
