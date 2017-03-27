@@ -4,9 +4,6 @@ import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
 import { AppState } from "app/ngrx/appstore.interface.ts";
 
-
-
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -22,7 +19,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-    onEnter(value: string) {
+  onEnter(value: string) {
     if (value !== '') {
       this.store.dispatch({ type: ADD_TODO, payload: { 'completed': false, 'text': value } });
     }

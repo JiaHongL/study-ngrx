@@ -5,8 +5,6 @@ import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
 import { AppState } from "app/ngrx/appstore.interface.ts";
 
-
-
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -20,7 +18,6 @@ export class FooterComponent implements OnInit {
     this.todos = store.select('todos');
     this.status = store.select('status');
   }
-
 
   ngOnInit() {
   }

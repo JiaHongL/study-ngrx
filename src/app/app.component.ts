@@ -13,8 +13,5 @@ export class AppComponent {
 
   constructor(private store: Store<AppState>) {
     this.todos = store.select('todos');
-  }
-
-  
-  
+  }  
 }
