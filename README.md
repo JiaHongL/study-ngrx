@@ -1,5 +1,4 @@
-### 文章介紹：  
-http://jhlstudy.blogspot.tw/2017/03/angular4-redux-todomvc.html
+### 文章介紹：http://jhlstudy.blogspot.tw/2017/03/angular4-redux-todomvc.html
 
 <a href="https://jiahongl.github.io/study-ngrx/dist/">Demo</a> : 可使用<a href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd"> Redux DevTools </a>觀察store
     
