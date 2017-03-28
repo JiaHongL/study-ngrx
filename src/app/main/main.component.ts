@@ -38,11 +38,8 @@ export class MainComponent implements OnInit {
 
   editTodo(value: any) {
     // this.editedTodo = value ; PS:不能這樣丟會有問題,沒透過dispatch,就自動更新store
-    this.editedTodo = {
-      "id": value.id,
-      "completed": value.completed,
-      "text": value.text
-    };
+    //使用展開運算子,變成全新物件.
+    this.editedTodo = {...value}; 
   }
 
   updateTodo(value: any) {

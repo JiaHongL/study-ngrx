@@ -1805,6 +1805,14 @@ var HeaderComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__(12);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainComponent; });
+var __assign = (this && this.__assign) || Object.assign || function(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+            t[p] = s[p];
+    }
+    return t;
+};
 
 
 var MainComponent = (function () {
@@ -1828,11 +1836,8 @@ var MainComponent = (function () {
     };
     MainComponent.prototype.editTodo = function (value) {
         // this.editedTodo = value ; PS:不能這樣丟會有問題,沒透過dispatch,就自動更新store
-        this.editedTodo = {
-            "id": value.id,
-            "completed": value.completed,
-            "text": value.text
-        };
+        //使用展開運算子,變成全新物件.
+        this.editedTodo = __assign({}, value);
     };
     MainComponent.prototype.updateTodo = function (value) {
         if (value !== null) {
