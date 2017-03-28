@@ -1786,7 +1786,8 @@ var HeaderComponent = (function () {
     HeaderComponent.prototype.ngOnInit = function () {
     };
     HeaderComponent.prototype.onEnter = function (value) {
-        if (value !== '') {
+        var length = value.trim().length;
+        if (length !== 0) {
             this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["b" /* ADD_TODO */], payload: { 'completed': false, 'text': value } });
         }
     };
@@ -1841,7 +1842,13 @@ var MainComponent = (function () {
     };
     MainComponent.prototype.updateTodo = function (value) {
         if (value !== null) {
-            this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["g" /* EDIT_TODO */], payload: { 'id': value.id, 'text': value.text } });
+            var length = value.text.trim().length;
+            if (length == 0) {
+                this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["f" /* DELETE_TODO */], payload: { 'id': value.id } });
+            }
+            else {
+                this.store.dispatch({ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_todos_reducer__["g" /* EDIT_TODO */], payload: { 'id': value.id, 'text': value.text } });
+            }
             this.editedTodo = null;
         }
     };

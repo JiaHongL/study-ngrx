@@ -1,7 +1,7 @@
 import { Observable } from 'rx';
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppState } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface.ts";
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import { AppState } from "app/ngrx/appstore.interface.ts";
 export class AppComponent {
   todos: Observable<any>;
 
-  constructor(private store: Store<AppState>) {
+  constructor(private store: Store<AppStore>) {
     this.todos = store.select('todos');
   }  
 }

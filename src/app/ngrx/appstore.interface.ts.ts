@@ -1,4 +1,4 @@
-export interface AppState {
+export interface AppStore {
     todos?: Array<Items>;
     status?: string;
 }

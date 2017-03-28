@@ -2,7 +2,7 @@ import { COMPLETE_ALL, COMPLETE_TODO, DELETE_TODO, EDIT_TODO } from './../ngrx/t
 import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rx';
-import { AppState } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface.ts";
 
 
 @Component({
@@ -16,7 +16,7 @@ export class MainComponent implements OnInit {
   status: Observable<any>;
   editedTodo: object;
 
-  constructor(private store: Store<AppState>) {
+  constructor(private store: Store<AppStore>) {
     this.todos = store.select('todos');
     this.status = store.select('status');
     this.editedTodo = {};
@@ -39,12 +39,17 @@ export class MainComponent implements OnInit {
   editTodo(value: any) {
     // this.editedTodo = value ; PS:不能這樣丟會有問題,沒透過dispatch,就自動更新store
     //使用展開運算子,變成全新物件.
-    this.editedTodo = {...value}; 
+    this.editedTodo = { ...value };
   }
 
   updateTodo(value: any) {
     if (value !== null) {
-      this.store.dispatch({ type: EDIT_TODO, payload: { 'id': value.id, 'text': value.text } });
+      let length = value.text.trim().length;
+      if (length == 0) {
+        this.store.dispatch({ type: DELETE_TODO, payload: { 'id': value.id } });
+      } else {
+        this.store.dispatch({ type: EDIT_TODO, payload: { 'id': value.id, 'text': value.text } });
+      }
       this.editedTodo = null;
     }
   }

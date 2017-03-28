@@ -2,7 +2,7 @@ import { ADD_TODO } from './../ngrx/todos.reducer';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
-import { AppState } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface.ts";
 
 @Component({
   selector: 'app-header',
@@ -12,7 +12,7 @@ import { AppState } from "app/ngrx/appstore.interface.ts";
 export class HeaderComponent implements OnInit {
   todos: Observable<any>;
 
-  constructor(private store: Store<AppState>) {
+  constructor(private store: Store<AppStore>) {
     this.todos = store.select('todos');
   }
 
@@ -20,7 +20,8 @@ export class HeaderComponent implements OnInit {
   }
 
   onEnter(value: string) {
-    if (value !== '') {
+    let length = value.trim().length;
+    if (length !== 0) {
       this.store.dispatch({ type: ADD_TODO, payload: { 'completed': false, 'text': value } });
     }
   }
