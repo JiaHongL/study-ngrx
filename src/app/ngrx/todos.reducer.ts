@@ -1,5 +1,5 @@
 import { ActionReducer, Action } from '@ngrx/store';
-import { ItemState } from "app/ngrx/appstore.interface.ts";
+import { Items } from "app/ngrx/appstore.interface.ts";
 
 export const ADD_TODO = 'ADD_TODO';
 export const DELETE_TODO = 'DELETE_TODO';
@@ -10,7 +10,7 @@ export const ALL_ACTIVE = 'ALL_ACTIVE';
 export const ALL_COMPLETED = 'ALL_COMPLETED';
 export const CLEAR_COMPLETED = 'CLEAR_COMPLETED';
 
-export function ToDosReducer (state: Array<ItemState> = [], action: Action) {
+export function ToDosReducer (state: Array<Items> = [], action: Action) {
     switch (action.type) {
         case 'ADD_TODO':
             return [
@@ -28,7 +28,7 @@ export function ToDosReducer (state: Array<ItemState> = [], action: Action) {
         case 'EDIT_TODO':
             return state.map(todo =>
                 todo.id === action.payload.id ?
-                    { ...todo, completed: action.payload.completed, text: action.payload.text } :
+                    { ...todo, text: action.payload.text } :
                     todo
             )
         case 'COMPLETE_TODO':

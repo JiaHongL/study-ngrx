@@ -1687,7 +1687,7 @@ function ToDosReducer(state, action) {
             });
         case 'EDIT_TODO':
             return state.map(function (todo) {
-                return todo.id === action.payload.id ? __assign({}, todo, { completed: action.payload.completed, text: action.payload.text }) :
+                return todo.id === action.payload.id ? __assign({}, todo, { text: action.payload.text }) :
                     todo;
             });
         case 'COMPLETE_TODO':

@@ -1,9 +1,9 @@
 export interface AppState {
-    todos?: Array<ItemState>;
+    todos?: Array<Items>;
     status?: string;
 }
 
-export interface ItemState {
+export interface Items {
     "id": number;
     "completed": boolean;
     "text": string

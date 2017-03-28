@@ -13,7 +13,7 @@ import { AppState } from "app/ngrx/appstore.interface.ts";
 export class MainComponent implements OnInit {
   todo: string = '';
   todos: Observable<any>;
-  status:Observable<any>;
+  status: Observable<any>;
   editedTodo: object;
 
   constructor(private store: Store<AppState>) {
