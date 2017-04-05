@@ -1,5 +1,6 @@
 import { ActionReducer, Action } from '@ngrx/store';
-import { Items } from "app/ngrx/appstore.interface.ts";
+import { Items } from "app/ngrx/appstore.interface";
+
 
 export const ADD_TODO = 'ADD_TODO';
 export const DELETE_TODO = 'DELETE_TODO';

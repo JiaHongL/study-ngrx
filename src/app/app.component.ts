@@ -1,7 +1,8 @@
 import { Observable } from 'rx';
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppStore } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface";
+
 
 @Component({
   selector: 'app-root',

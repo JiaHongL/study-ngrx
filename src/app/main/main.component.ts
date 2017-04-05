@@ -2,7 +2,8 @@ import { COMPLETE_ALL, COMPLETE_TODO, DELETE_TODO, EDIT_TODO } from './../ngrx/t
 import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rx';
-import { AppStore } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface";
+
 
 
 @Component({

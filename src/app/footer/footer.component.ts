@@ -3,7 +3,8 @@ import { CLEAR_COMPLETED } from './../ngrx/todos.reducer';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rx';
 import { Component, OnInit } from '@angular/core';
-import { AppStore } from "app/ngrx/appstore.interface.ts";
+import { AppStore } from "app/ngrx/appstore.interface";
+
 
 @Component({
   selector: 'app-footer',
